@@ -1,0 +1,27 @@
+{
+  "name": "npm-local",
+  "version": "0.0.1",
+  "description": "Get a local copy of all modules known to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "npm-local" : "bin/npm-local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:juliangruber/npm-local"
+  },
+  "keywords": [
+    "npm",
+    "local",
+    "stash"
+  ],
+  "author": "Julian Gruber <julian@juliangruber.com>",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "~0.4.2",
+    "request": "~2.12.0"
+  }
+}
